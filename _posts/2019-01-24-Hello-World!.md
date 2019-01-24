@@ -1,8 +1,33 @@
 ---
 title: "Dev Blog 시작"
-categories:
-  - daily
+categories: #카테고리
+  - blogging
+tags: # 태그 사용
+  - jekyll
+author_profile: true #작성자 프로필 출력 여부
+read_time: false #read_time을 출력할지 여부 1min read 같은 것
+
+toc: true #Table Of Contents 목차 보여줌
+toc_table: "Contents" #toc 이름 정의
+toc_icon: "cog" #font Awesome 아이콘으로 toc 아이콘 설정
+toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
+
+
+
+header: #헤더에 유투브 비디오 삽입
+video:
+ id:
+ provider:
+
+#link: https://github.com #direct link 만들
+
 last_modified_at: 2019-01-24T13:20:00+09:00
 ---
 
 github.io로 blog 구축하기
+~~~~~
+int main(void){
+  printf("hello, world!\n");
+  return 0;
+}
+~~~~~
