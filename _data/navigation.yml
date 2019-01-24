@@ -7,6 +7,13 @@ main:
   - title: "Category"
     url: /categories/
 
+# sidebar
+_posts:
+  - title: "algorithms"
+    url: /categories/#algorithms
+  - title: "blogging"
+    url: /categories/#blogging
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
