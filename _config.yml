@@ -31,7 +31,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : dev-hundred-blog #Short-name # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : lizable #Short-name # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "lizable"
   avatar           : "/assets/images/bio_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "from discord find harmony."
+  bio              : "from discord, find harmony."
   location         : "Seoul,Korea"
   email            : "lizable@gmail.com"
   links:
