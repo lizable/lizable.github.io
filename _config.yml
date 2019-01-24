@@ -98,10 +98,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-133161154-1"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
@@ -109,7 +109,7 @@ author:
   name             : "lizable"
   avatar           : "/assets/images/bio_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "from discord, find harmony."
-  location         : "Seoul,Korea"
+  location         : "Seoul, Korea"
   email            : "lizable@gmail.com"
   links:
     - label: "Email"
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/lizable"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -219,9 +219,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
