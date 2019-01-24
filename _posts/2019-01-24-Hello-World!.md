@@ -27,7 +27,9 @@ last_modified_at: 2019-01-24T13:20:00+09:00
 github.io로 blog 구축하기
 ~~~~~
 int main(void){
+
   printf("hello, world!\n");
+
   return 0;
 }
 ~~~~~
