@@ -298,7 +298,7 @@ defaults:
       search: true
       related: true
       sidebar:
-        nav: sidebar-blogging
+      nav: "_posts"
 
   # _posts/Algorithms
   - scope:
@@ -313,8 +313,7 @@ defaults:
       search: true
       related: true
       sidebar:
-        title: "Algorithms 카테고리"
-        nav: sidebar-algorithms
+        nav: "_posts"
 
 
   # _posts
@@ -329,6 +328,8 @@ defaults:
       share: true
       search: true
       related: true
+      sidebar:
+        nav: "_posts"
 
   # _pages
   - scope:
@@ -338,3 +339,5 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
+      sidebar:
+        nav: "_posts"

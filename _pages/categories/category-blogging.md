@@ -4,8 +4,6 @@ layout: archive
 permalink: /categories/blogging
 author_profile: true
 sidebar_main: true
-sidebar:
-    nav: "_posts"
 ---
 
 {% assign posts = site.categories.blogging | sort:"date" %}
