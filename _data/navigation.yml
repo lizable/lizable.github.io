@@ -9,10 +9,13 @@ main:
 
 # sidebar
 _posts:
-  - title: "algorithms"
-    url: /categories/#algorithms
-  - title: "blogging"
+  - title: "category"
+    children:
+    - title: "algorithms"
+      url: /categories/#algorithms
+    - title: "blogging"
     url: /categories/#blogging
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
