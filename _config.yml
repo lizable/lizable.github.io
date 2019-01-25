@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "lizable"
   avatar           : "/assets/images/bio_photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "from discord, find harmony."
+  bio              : "의미있는 삽질을 지향합니다."
   location         : "Seoul, Korea"
   email            : "lizable@gmail.com"
   links:
