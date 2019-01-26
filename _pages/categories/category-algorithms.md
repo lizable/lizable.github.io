@@ -4,6 +4,8 @@ layout: archive
 permalink: /categories/algorithms
 author_profile: true
 sidebar_main: true
+sidebar:
+    nav: "_posts"
 ---
 
 {% assign posts = site.categories.algorithms | sort:"tags" | reverse %}
