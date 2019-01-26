@@ -71,7 +71,7 @@ search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : MVF6N3RQ6E # YOUR_APPLICATION_ID
   index_name             : lizable.github.io # YOUR_INDEX_NAME
-  search_only_api_key    : fe71733887ddad5a74f06fda9fb5048b # YOUR_SEARCH_ONLY_API_KEY
+  search_only_api_key    : 95f32af5fe102541219ead77a3fd491c # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
   search_engine_id       : UA-133161154-1
@@ -234,6 +234,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-algolia
 
 
 # mimic GitHub Pages with --safe
@@ -342,3 +343,24 @@ defaults:
       author_profile: true
       sidebar:
         nav: "_posts"
+
+#build option
+# Settings for builing master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+safe: False
+lsi: False
+username: lizable
+repo: lizable.github.io
+branch: master
+relative_source: ../lizable/
+destination: ../_posts
+production_url:
+source_url:  https://github.com/lizable/lizabel.github.io
