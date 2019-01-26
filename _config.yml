@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+#remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -70,7 +70,7 @@ search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : MVF6N3RQ6E # YOUR_APPLICATION_ID
   index_name             : lizable # YOUR_INDEX_NAME
-  search_only_api_key    : 95f32af5fe102541219ead77a3fd491c
+  search_only_api_key    : 21cb5fccdfa92ecd5420c182cf32d0ec
   powered_by             : # true (default), false
 google:
   search_engine_id       : UA-133161154-1
@@ -233,8 +233,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
-  - jekyll-algolia
-
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -244,6 +242,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-algolia
 
 
 # Archives
@@ -361,5 +360,5 @@ repo: lizable.github.io
 branch: master
 relative_source: ../lizable/
 destination: ../_posts
-production_url:  
-source_url:  https://github.com/lizable/lizable.github.io
+production_url: https://lizable.github.io/
+source_url: https://github.com/lizable/lizable.github.io

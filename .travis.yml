@@ -2,18 +2,18 @@ language: ruby
 cache: bundler
 
 install:
-  # Install Jekyll and dependencies
-  - bundle install
+- bundle install
 
 script:
-  - bundle exec rake site:deploy --quiet
+- bundle exec rake site:deploy --quiet
+
 branches:
   only:
-    # Change this to gh-pages if you're deploying using the gh-pages branch
-    - master
+  - master
+
 rvm:
- - 2.4
+- 2.4.2
 
 env:
   global:
-    secure: FM42qi9Se8fwxmOkAxFXJ9NxWASPSQc9mM78pCbcyo6O6UfJ7Iz0g77K8CGb9t713e42l6AR8aIof3xrXWNCT5lYvO9NfoxnyLz74aTFTB7eXu+fLtYZueu5vunV5KSZsodYf6QP6Amuam9phCaV1ylqPEa1bri3CexGLaYc43aGGzfTJmNEb2Z1rTsZvnFddc2kO1AMSUwRIljixkrximQjArVi3gq4LMCxB9B8Pnpy9NkldP/glW/yhewkdWdxS7P16RFmZp0uafZ8LcOpCuSB8ykhk1Bv4g3Ibcz+3zj5sCRXzjOBFskEmZodc3K1xz5gPiD8HhCceiej5Iw/A0Y27cR5Vp9xP7GBVdgAac2lo0ALOmtTZw8BCwYaHr/kPnCxGfyk1/diDI7UEXr5otl/01bU/C8HunbiLuCBFIqUYWDqDZX7++xx6jTRKiO1zf2eDq04n9yZY34CjJsHxFL5x/yLLGwMzn6iKPf/OxBgjKqBUCtq/DPRLVXqPGpLYvipgp02d2mP/Q1mJoD+6arU+viS21IMxgpDH6Cl1TEzLZhpyo63Gql9lDjFrLpd5y6n1LrdElfGmFxvZrOkYxxCbkqXDH3+RT4GDKF14YbJj81SHX8c0WzLk0LuPaBJFoqnuHrndyq20y29iDxLYx/5TNGpMRV1MNc15iAT/5Y=
+  - secure: DxdWcZ3d5xgPwzy0R8sQTbplWGdt2+ibPNVjc4ieyqIBLBKgENOd/3jBFjtRVVpBiyWlczu4TD6tlzDWiIAgvJTnttFT2uHiVCk7WADffXqJmwJK/LT/cAtZxi54wjJWRWYHLfn+5oES0dIbNIK4Ul8Q9a3tfWR+W5aBywaK3zPCDOI8L2oYZN4zqrfLB3cmQcUB4UUmR0y9EBU7PU+7RAU0Sm4ldbB9hkAKhpYhjbZ/GsqgoIf4YHhwg7w5qmRQ1uXW2OKqpQ+zedciN/4hXhpqzZKLk2ckXXDvArBJLnmSndTnozqX+wOOQ2sRrQVRVQJzxLmvm1DTGUv5cLEDnm6mwTBifyI2U3RMFxCwjLstqN7aO0C+Z8bxx9M3+Oe5Wp5XRZUDi97IvSdbgAoJ0NmJsfrUGMT3ULqBvAP2VoNHDM1cxmI2lXAwsb4LNEA6tXfzyz/Pvd5j3aCHDPCvqITFUKfsDdOtYcsP80/0Lsd5Df9yts5GA6IlFLrJbpmdqXHQ9uSc09xrGUd4/VlZJfBG6DiPTjXZvsknBwvRviFTGVxQBYTTJ8PIIju/Qf4m5fcUNOJE0Umm0a4CyayPp8g0agwwWiYmF79YIGlM+kCVeqzdHVhgpdQbHAN+snrdd5tZjOiyiEOOzD1oGVSoiENNzm7TYM7qTcDvkM1EnM4=
