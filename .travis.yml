@@ -1,8 +1,12 @@
 language: ruby
 cache: bundler
-gemfile: Gemfile
+
+install:
+  # Install Jekyll and dependencies
+  - bundle install
+
 script:
-  - bundle exec jekyll algolia --source docs --destination docs/_site --config
+  - bundle exec jekyll algolia
   _config.yml
 branches:
   only:
@@ -10,3 +14,7 @@ branches:
     - master
 rvm:
  - 2.4
+
+env:
+  global:
+    secure: jW8u6lafpi4edA1oUQ473g63W8mN7Dz955VewnCtA+2//Can9rxdINlikVU3fwxu9sag70dShBbkv6g8n8nWgZDHw5rlOEw7ZHT2Kc2mCAsGpzrhMupNY43VgH7B1KI7FSMjBgHOiQAN2Z6M7mfVnBwScjyyYpzmIkKU1412ZZQ7/j2Z6ovoEdg7eCiPP4z+Ix4XcKL7ZXAcVQbnQto9SYhpW+cOLys0RGmZWizn2spTLtquDjsW38A/4dM6k6v+BWft9brI/ZcFRnlcvrhktoHS1IZ6AGj5oOC9e5jVScJiQFkyFCc7tOpWkXQBKbiy0/zWTscO06VtlZmeGqiFCuYeiFo012x1zR+ONxoMM0RD0dJzn1Q+H0IRXxYEBvkJ1DohQNW/zYLQtH3QYXQwdTs7KJq9uiPiw0Ktz0ln7lKBkuh+SWUOFcduLKgb/Txp1ujq0sc+yul/Vn6yue7pCtI1dUh3/iZsxOupm+Ickjfnl5vLCJ3SoUMxIvva8WdmN1InpZBUSgfWF2gq6Wm7mllSaYQn4EX9OSB9uEwxVDpUh8Dhy8PHLOm5d8vsfIs98Hl6d6NMKi8hJvGYA385OFqHVbqy0Bm0lLZ5BQl8c4Tb6GQzL4FwteZv9LipPm01FknHoD+5XzbJr/ckkht5HSxfDZzN5pMRM+GjW/vviz4=
