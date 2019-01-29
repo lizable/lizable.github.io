@@ -13,10 +13,12 @@ _posts:
     children:
     - title: "algorithms"
       url: /categories/#algorithms
+
     - title: "blogging"
     url: /categories/#blogging
-    - title: "data structure"
-      url: /categories/#data-structure
+
+    - title: "datastructure"
+      url: /categories/#datastructure
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

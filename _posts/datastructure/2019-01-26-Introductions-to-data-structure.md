@@ -2,9 +2,9 @@
 title: "[자료구조]1.1 Introductions to Data Structure"
 excerpt: "자료구조 정리를 시작하며"
 categories: #카테고리
-  - data-structure
+  - datastructure
 tags: # 태그 사용
-  - data-structure
+  - datastructure
   - introductions
 author_profile: true #작성자 프로필 출력 여부
 read_time: false #read_time을 출력할지 여부 1min read 같은 것
@@ -30,7 +30,7 @@ last_modified_at: 2019-01-24T02:00:00+09:00
 
 자료(data)를 다루는 여러가지 방법을 의미합니다.  
 자료형에 따른 분류는 다음과 같습니다.
-![자료구조-분류](/assets/images/data-structure/_01/_01-data-structure.png)  
+![자료구조-분류](/assets/images/datastructure/_01/_01-data-structure.png)  
 [(출처:cse-tutor)](https://www.csetutor.com/classification-of-data-structure-with-diagram/)  
 
 {% capture intro %}

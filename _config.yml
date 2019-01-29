@@ -315,9 +315,9 @@ defaults:
       sidebar:
         nav: "_posts"
 
-  # _posts/data-structure
+  # _posts/dataStructure
   - scope:
-      path: "_posts/data-structure"
+      path: "_posts/datastructure"
       type: posts
     values:
       layout: single
