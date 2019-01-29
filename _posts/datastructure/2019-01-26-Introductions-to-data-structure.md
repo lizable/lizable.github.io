@@ -29,8 +29,8 @@ last_modified_at: 2019-01-24T02:00:00+09:00
 자료구조 (data structure) 란?
 
 자료(data)를 다루는 여러가지 방법을 의미합니다.  
-자료형에 따른 분류는 다음과 같습니다.
-![자료구조-분류](/assets/images/datastructure/_01/_01-data-structure.png)  
+자료형에 따른 분류는 다음과 같습니다.  
+![datastructure_01](/assets/images/datastructure/data-structure-01.png)  
 [(출처:cse-tutor)](https://www.csetutor.com/classification-of-data-structure-with-diagram/)  
 
 {% capture intro %}
@@ -46,4 +46,4 @@ last_modified_at: 2019-01-24T02:00:00+09:00
 
 
 ---
-### 이 글을 마치며
+### Summary

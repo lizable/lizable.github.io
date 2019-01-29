@@ -10,6 +10,7 @@ sidebar:
 
 {% assign posts = site.categories.algorithms | sort:"tags" | reverse %}
 
+
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}
