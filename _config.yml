@@ -315,6 +315,20 @@ defaults:
       sidebar:
         nav: "_posts"
 
+  # _posts/data-structure
+  - scope:
+      path: "_posts/data-structure"
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      comments: true
+      share: true
+      search: true
+      related: true
+      sidebar:
+        nav: "_posts"
 
   # _posts
   - scope:
