@@ -8,7 +8,7 @@ sidebar:
     nav: "_posts"
 ---
 
-{% assign posts = site.categories.dataStructure | sort:"date" %}
+{% assign posts = site.categories.datastructure | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
