@@ -22,7 +22,7 @@ video:
 
 #link: https://github.com #direct link 만들
 
-last_modified_at: 2019-01-24T02:00:00+09:00
+last_modified_at: 2019-01-26T02:00:00+09:00
 ---
 
 ## Intro
@@ -44,7 +44,7 @@ e.g) IEEE754의 경우, 'NaN (Not a Number)', '+0' '-0', ... 로 표현
      참고 : <https://www.doc.ic.ac.uk/~eedwards/compsys/float/nan.html>  
 더 자세한 내용은 추가 포스팅에서 설명하도록 하겠습니다.  
 {% endcapture %}
-<div class="notice--primary">{{ intro | markdownify }}</div>  
+<div class="notice--primary">{{ intro | markdownify }}</div>
 
 ## Description
 
