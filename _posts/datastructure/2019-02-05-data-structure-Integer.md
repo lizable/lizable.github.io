@@ -6,6 +6,7 @@ categories: #카테고리
 tags: # 태그 사용
   - datastructure
   - Integer
+  - Fundamental-type
   - primitive-datatype
   - 정수형
   - 기본자료형
@@ -23,9 +24,10 @@ toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 
 
 header: #헤더에 유투브 비디오 삽입
-video:
- id:
- provider:
+  video:
+  id:
+  provider:
+  teaser: /assets/images/teasers/teaser_10.jpeg
 
 #link: https://github.com #direct link 만들
 
@@ -66,7 +68,7 @@ Integer(정수)에 대한 설명은 지난 포스트에서 간단히 다루었�
 MSB(최상위 부호 비트)를 사용할 때에 문제가 되는 경우는  
 서로 다른 부호끼리 더할 때 발생합니다.
 
-![datastructure_01](/assets/images/datastructure/data-structure-msb.png){: width="600" height="150"}
+![datastructure_01](/assets/images/datastructure/integer/data-structure-msb.png){: width="600" height="150"}
 
 이와 같은 문제를 해결하기 위해 1's complement (1의 보수) 방법이 등장합니다.    
 ### 1's complement  
@@ -76,14 +78,14 @@ MSB(최상위 부호 비트)를 사용할 때에 문제가 되는 경우는
 단, MSB(최상위 부호 비트) 는 1로 유지 됩니다.
 <b>-1</b>은 다음과 같이 표현됩니다.  
 
- <img src="/assets/images/datastructure/data-structure-one-complement-01.png" width="450" height="100">
+ <img src="/assets/images/datastructure/integer/data-structure-one-complement-01.png" width="450" height="100">
 
 {% endcapture %}
 <div class="notice--info">{{ what-is-one-s-complement | markdownify }}</div>
 
 앞서 문제가 되었던 6 + (-18)의 계산 과정을 보겠습니다.  
 
-![datastructure_02](/assets/images/datastructure/data-structure-one-complement-02.png){: width="600" height="300"}  
+![datastructure_02](/assets/images/datastructure/integer/data-structure-one-complement-02.png){: width="600" height="300"}  
 
 의도한 대로 답이 잘 나옵니다! 😃  
 
@@ -102,11 +104,11 @@ MSB(최상위 부호 비트)를 사용할 때에 문제가 되는 경우는
   <p>
   <b>(1)의 경우</b>
   <br>
-   <img src="/assets/images/datastructure/data-structure-one-complement-03.png" width="600" height="300">
+   <img src="/assets/images/datastructure/integer/data-structure-one-complement-03.png" width="600" height="300">
    <br>
   <b>(2)의 경우</b>
   <br>  
-  <img src="/assets/images/datastructure/data-structure-one-complement-04.png" width="600" height="400">
+  <img src="/assets/images/datastructure/integer/data-structure-one-complement-04.png" width="600" height="400">
   </p>
 </details>
 
@@ -114,7 +116,7 @@ MSB(최상위 부호 비트)를 사용할 때에 문제가 되는 경우는
 
 하지만, 1의 보수 방식에도 문제가 있습니다.  
 0을 표현하는 방법이 2개로 나뉘어 있기 때문이지요.  
-![datastructure_05](/assets/images/datastructure/data-structure-two-complement-01.png){: width="600" height="150"}
+![datastructure_05](/assets/images/datastructure/integer/data-structure-two-complement-01.png){: width="600" height="150"}
 
 이를 보완 하기 위해 2's complement (2의 보수) 방법이 등장하게 됩니다.  
 
@@ -125,7 +127,7 @@ MSB(최상위 부호 비트)를 사용할 때에 문제가 되는 경우는
 2진수의 맨 마지막 자리 bit에 1을 더하는 방법입니다.
 <b>-1</b>은 다음과 같이 표현됩니다.  
 
- <img src="/assets/images/datastructure/data-structure-two-complement-02.png" width="450" height="150">
+ <img src="/assets/images/datastructure/integer/data-structure-two-complement-02.png" width="450" height="150">
 
 {% endcapture %}
 <div class="notice--info">{{ what-is-two-s-complement | markdownify }}</div>
@@ -147,24 +149,24 @@ overflow는 컴퓨터 프로그래밍에서는 정의한 범위를 벗어나는 
 {% capture range %}
 2진수의 bit 갯수를 n이라 하고,  
 기본적으로 0을 제외하고 표현할 수 있는 숫자 갯수(N)는 다음과 같습니다.  
- <img src="/assets/images/datastructure/data-structure-range-of-binary.png" width="240" height="80">  
+ <img src="/assets/images/datastructure/integer/data-structure-range-of-binary.png" width="240" height="80">  
 
 <b>[4bit 기준 표현할 수 있는 숫자]</b>
 <details><summary>표 펼쳐보기</summary>
 <p>
 - <b>unsigned 표현법</b> 기준
 <br>
-<img src="/assets/images/datastructure/data-structure-range-01.png" width="240" height="240">
+<img src="/assets/images/datastructure/integer/data-structure-range-01.png" width="240" height="240">
 <br>
 단, MSB(최상위 부호 비트)를 사용할 경우는 다음과 같습니다.
 <br>
 - <b> 1's complement 표현법 </b> 기준
 <br>
-<img src="/assets/images/datastructure/data-structure-range-02.png" width="240" height="300">
+<img src="/assets/images/datastructure/integer/data-structure-range-02.png" width="240" height="300">
 <br>
 - <b> 2's complement 표현법 </b> 기준
 <br>  
-<img src="/assets/images/datastructure/data-structure-range-03.png" width="240" height="300">
+<img src="/assets/images/datastructure/integer/data-structure-range-03.png" width="240" height="300">
 <br>
 </p>
 </details>  
@@ -181,11 +183,12 @@ overflow가 일어났음을 감지할 수 있게 됩니다.
 <code> <b> A ⊕ B = ? </b> </code>
 <code> 1 = true , 0 = false </code>  
 [XOR 연산 결과]  
-![datastructure_03](/assets/images/datastructure/data-structure-xor.png){: width="200
+![datastructure_03](/assets/images/datastructure/integer/data-structure-xor.png){: width="200
 " height="200"}
 
+이로써 overflow를 감지하는 방법까지 알아보았습니다.  
+overflow를 처리하는 방법은 추가 포스팅에서 더욱 자세히 설명하도록 하겠습니다.  
 
-이로써 overflow를 처리하는 방법까지 간략하게 알아보았습니다.  
 
 ## Summary
 

@@ -16,10 +16,10 @@ toc_sticky: true # 스크롤 내릴때 같이 내려가는 목차
 
 
 header: #헤더에 유투브 비디오 삽입
-video:
- id:
- provider:
-
+  video:
+  id:
+  provider:
+  teaser: /assets/images/teasers/teaser_15.jpeg
 #link: https://github.com #direct link 만들
 
 last_modified_at: 2019-01-26T02:00:00+09:00
@@ -31,7 +31,7 @@ last_modified_at: 2019-01-26T02:00:00+09:00
 자료(data)를 다루는 여러가지 방법을 의미합니다.  
 자료형에 따른 분류는 다음과 같습니다.  
 ![datastructure_01](/assets/images/datastructure/data-structure-01.png)  
-<a href="https://www.csetutor.com/classification-of-data-structure-with-diagram/" style="float: right;">(출처:csetutor)</a>
+<a href="https://www.csetutor.com/classification-of-data-structure-with-diagram" target="_blank" style="float: right;">(출처:csetutor)</a>
 
 {% capture intro %}
 **자료형에 들어가기 앞서 주의할 점**  
